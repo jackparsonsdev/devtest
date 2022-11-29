@@ -1,0 +1,27 @@
+/* ---------------------------------------------
+	FONTS 
+------------------------------------------------ */
+@mixin helvetica ($weight) {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: $weight;
+    font-style: normal;
+}
+
+/* ---------------------------------
+    BOX SHADOW PREFIX
+------------------------------------ */
+@mixin box-shadow($left, $top, $radius, $color) {
+    box-shadow: $left $top $radius $color;
+    -webkit-box-shadow: $left $top $radius $color;
+    -moz-box-shadow: $left $top $radius $color;
+}
+
+/* ---------------------------------------------
+	MEDIA QUERY MIXINS
+------------------------------------------------ */
+@mixin over-sm {
+    @media (min-width: $sm-breakpoint) { @content; }
+}
+@mixin over-md {
+    @media (min-width: $md-breakpoint) { @content; }
+}

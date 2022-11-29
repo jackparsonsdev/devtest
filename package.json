@@ -1,0 +1,13 @@
+{
+    "name": "unsplash-api",
+    "version": "0.0.1",
+    "description": "Technical test for interview",
+    "author": "Jack Parsons",
+    "license": "GNU GPLv3",
+    "devDependencies": {
+        "sass": "^1.56.1"
+    },
+    "scripts": {
+        "watch:css": "sass --watch sass/style.scss style.css --style compressed"
+    }
+}

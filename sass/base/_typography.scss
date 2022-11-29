@@ -1,0 +1,8 @@
+body {
+    @include helvetica(300);
+}
+h1 {
+    @include helvetica(600);
+    text-align: center;
+    font-size: 40px;
+}

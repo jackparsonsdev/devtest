@@ -1,0 +1,19 @@
+body {
+    max-width: 1504px;
+    display: block;
+    margin: 32px auto;
+}
+#grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 32px;
+    place-items: start;
+    @include over-sm {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px;      
+    }
+    @include over-md {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 32px;      
+    }
+}
