@@ -10,6 +10,6 @@ if(!defined('ALLOWSETTINGS')) {
 }
 
 // Provide your Unsplash Access Key
-define('ACCESS_KEY', 'JRFk84uzH9VkqXMuAfAtDiWz6G6M-NnX2XqhhJTqGBw');
+define('ACCESS_KEY', 'YOUR_UNSPLASH_ACCESS_KEY_HERE');
 
 ?>
